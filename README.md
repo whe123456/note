@@ -6,6 +6,9 @@ vue路由传参，使用props获取参数
         props: (route) =>  ({id: +route.params.id})
       },
       
+  props: {
+   id: Number,
+},
       
           this.$router.push("/register/561156");
           
